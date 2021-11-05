@@ -20,7 +20,7 @@ public class NyPizza extends Pizza{
         }
 
         @Override
-        protected Pizza.Builder self() {
+        protected Builder self() {
             return this;
         }
 

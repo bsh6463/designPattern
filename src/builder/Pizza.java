@@ -26,7 +26,7 @@ public class Pizza {
         protected abstract Builder self();
     }
 
-    public Pizza(Builder builder){
+    Pizza(Builder builder){
         toppings = builder.toppings.clone();
     }
 
